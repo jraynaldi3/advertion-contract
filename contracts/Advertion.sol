@@ -4,6 +4,11 @@ pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
+/**
+*@author Julius Raynaldi 
+* inspired by ethhole.com/challenge advertisement auction project
+*/
+
 contract Advertion is Ownable {
     event BidSuccess(address bidder, uint value, string imageLink);
     event LinkChanged(string imageLink,string targetLink);
